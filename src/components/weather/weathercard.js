@@ -48,7 +48,8 @@ const Weathercard = ({
 
         <div className="weatherInfo">
           <div className="temperature">
-            <span>{temp}&deg;</span>
+            {/*<span>{temp}&deg;</span>*/}
+            <span>{temp}K</span>
           </div>
 
           <div className="description">
